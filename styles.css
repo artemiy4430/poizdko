@@ -1,0 +1,396 @@
+.svg {
+  position: relative;
+  left: 20px;
+}
+.butbut {
+  text-decoration-line: underline;
+  position: relative;
+  right: 20px;
+}
+.one {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.two {
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  line-height: 70px;
+  background-color: rgb(1, 1, 1, 0);
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two:hover {
+  background-color: azure;
+  transition: 1s;
+  color: black;
+  border: none;
+  border: 2px solid white;
+}
+.three {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 1, 1, 30%);
+  align-items: center;
+}
+.back_img {
+  width: auto;
+  height: 700px;
+  background-image: url(https://cs4.pikabu.ru/post_img/big/2015/03/11/7/1426072664_1445654298.jpg);
+}
+.big_bar {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(1, 1, 1, 10%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  border-radius: 20px;
+}
+.big_bar:hover {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+  background-color: rgb(1, 1, 1, 25%);
+}
+.bb_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(1, 1, 1, 15%);
+}
+.foot_t {
+  width: 1465px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.box {
+  margin: 20px auto;
+}
+.button {
+  background-color: rgb(240, 129, 18);
+  height: 35px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: black;
+  transition: 1.5s;
+}
+p {
+  color: rgb(239, 239, 239);
+}
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.оline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+.card1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cf.bstatic.com/images/hotel/840x460/328/328783723.jpg);
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+  background-size: cover;
+  margin: 30px auto;
+}
+.layer {
+  position: absolute;
+  background: #050505b8;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.4s;
+  bottom: 0;
+  overflow: hidden;
+}
+.card1:hover .layer {
+  height: 100%;
+  cursor: pointer;
+}
+.button1 {
+  opacity: 0;
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  border: 1px solid white;
+  color: #ffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+}
+.card1:hover .button1 {
+  opacity: 1;
+}
+.button1:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.card2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cf.bstatic.com/xdata/images/hotel/max500/369183489.jpg?k=694cb86df39715306570931925711ff1fbd6f102d549da94123e1cea2bd284d5&o=&hp=1);
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+  background-size: cover;
+  margin: 30px auto;
+}
+.layer {
+  position: absolute;
+  background: #050505b8;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.4s;
+  bottom: 0;
+  overflow: hidden;
+}
+.card2:hover .layer {
+  height: 100%;
+  cursor: pointer;
+}
+.button2 {
+  opacity: 0;
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  border: 1px solid white;
+  color: #ffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+}
+.card2:hover .button2 {
+  opacity: 1;
+}
+.button2:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.card3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://dokarpat.com.ua/wp-content/uploads/2022/05/marion-spa_12.jpeg);
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+  background-size: cover;
+  margin: 30px auto;
+}
+.layer {
+  position: absolute;
+  background: #050505b8;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.4s;
+  bottom: 0;
+  overflow: hidden;
+}
+.card3:hover .layer {
+  height: 100%;
+  cursor: pointer;
+}
+.button3 {
+  opacity: 0;
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  border: 1px solid white;
+  color: #ffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+}
+.card3:hover .button3 {
+  opacity: 1;
+}
+.button3:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.card4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/411790595.jpg?k=84ade8e320ee6acf3e7a490bfa12ed53dc96ca735408da49a53c8476e878f07e&o=&hp=1);
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+  background-size: cover;
+  margin: 30px auto;
+}
+.layer {
+  position: absolute;
+  background: #050505b8;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.4s;
+  bottom: 0;
+  overflow: hidden;
+}
+.card4:hover .layer {
+  height: 100%;
+  cursor: pointer;
+}
+.button4 {
+  opacity: 0;
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  border: 1px solid white;
+  color: #ffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+}
+.card4:hover .button4 {
+  opacity: 1;
+}
+.button4:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.block {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+.batyko__burger {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+}
+.burger {
+  position: absolute;
+  width: 33px;
+  top: 25px;
+  left: 20px;
+  height: 3px;
+  background-color: #000;
+  transition: 0.5s;
+}
+.burger:after {
+  content: "";
+  position: absolute;
+  width: 33px;
+  top: -10px;
+  left: 0px;
+  transition: 0.5s;
+  height: 3px;
+  background-color: #000;
+}
+.burger::before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  top: 10px;
+  left: 0px;
+  transition: 0.5s;
+  height: 3px;
+  background-color: #000;
+}
+.batyko__burger:hover .burger::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.batyko__burger:hover .burger::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+.batyko__burger:hover .burger {
+  background-color: #fff;
+}
